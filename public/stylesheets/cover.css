@@ -22,6 +22,11 @@ a:hover {
 
   margin-top: 150px;
 }
+.galleryContainer{
+
+  margin-left: 20%;
+  margin-right: 20%;
+}
 /*
  * Form Group
  */
@@ -99,9 +104,9 @@ body {
 }
 .site-wrapper p{
   padding-top: 20px;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
-  text-align: justify;
+  text-align: center;
 }
 .site-wrapper-inner {
   display: table-cell;

@@ -3,24 +3,24 @@ extends ./layout.pug
 block content
 
      each item in items
-      section.item
+
         .container
 
         section#products
-          .row
+          .row.galleryContainer
             .col-md-4.portfolio-item
               a(href='/productDetail')
                 img.img-responsive(src='/images/art4.jpg', alt='')
               h3
-                a(href='#')  #{item.title}
+                a(href='/productDetail')  #{item.title}
 
             .col-md-4.portfolio-item
-              a(href='#')
+              a(href='/productDetail')
                 img.img-responsive(src='/images/art4.jpg', alt='')
               h3
-                a(href='#')  #{item.title}
+                a(href='/productDetail')  #{item.title}
             .col-md-4.portfolio-item
-              a(href='#')
+              a(href='/productDetail')
                 img.img-responsive(src='/images/art3.jpg', alt='')
               h3
                   a(href='#')  #{item.title}
