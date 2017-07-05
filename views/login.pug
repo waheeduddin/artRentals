@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  .main.containerLogin
+    .row
+      .col-md-6.col-md-offset-3
+        h1.display-4.m-b-2 Log In
+        form(method='POST' action='/login')
+          div.form-group
+            label(for='email') Email
+            input.form-control(type='text' id='email' placeholder='email' name='email')
+          div.form-group
+            label(for='password') Password
+            input.form-control(type='password' id='password' placeholder='password' name='password')
+          fieldset.form-group
+            legend Who are You?
+            |
+            .form-check
+              label.form-check-label
+                input#optionsRadios1.form-check-input(type="radio", name="optionsRadios", value="option1", checked="")
+                |         Artist
+            |
+            .form-check.radioButton
+              label.form-check-label
+                input#optionsRadios2.form-check-input(type="radio", name="optionsRadios", value="option2")
+                |         Art
+
+
+          a.btn.loginButton(href='/detail/', role="button") Log in

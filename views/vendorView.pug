@@ -1,32 +1,23 @@
 extends layout
 
 block content
-      section.post
-      form
-        .fomrContainer
-          label(for='exampleInputEmail1') Email address
-          input#exampleInputEmail1.form-control(type='email', aria-describedby='emailHelp', placeholder='Enter email')
-          small#emailHelp.form-text.text-muted We'll never share your email with anyone else.
+      form.formContainer
         .form-group
-          label(for='exampleInputPassword1') Password
-          input#exampleInputPassword1.form-control(type='password', placeholder='Password')
+          label(for='exampleInputEmail1') Renter ID
+          input#exampleInputEmail1.form-control(type='email', aria-describedby='emailHelp', placeholder='Renter ID')
+          small#emailHelp.form-text.text-muted
         .form-group
-          label(for='exampleSelect1') Example select
-          select#exampleSelect1.form-control
-            option 1
-            option 2
-            option 3
-            option 4
-            option 5
+          label(for='exampleInputPassword1') Renter Signature
+          input#exampleInputPassword1.form-control(type='password', placeholder='Renter Signature')
         .form-group
-          label(for='exampleSelect2') Example multiple select
-          select#exampleSelect2.form-control(multiple='')
-            option 1
-            option 2
-            option 3
-            option 4
-            option 5
+          label(for='exampleInputPassword1') Product ID
+          input#exampleInputPassword1.form-control(type='password', placeholder='Product ID')
         .form-group
-          label(for='exampleTextarea') Example textarea
+          label(for='exampleTextarea') History
           textarea#exampleTextarea.form-control(rows='3')
-          img.img-responsive(src='/images/art1.jpg', alt='')
+        .form-group
+          label(for='exampleInputFile') Upload Item Image
+          input#exampleInputFile.form-control-file(type='file', aria-describedby='fileHelp')
+          small#fileHelp.form-text.text-muted
+        p
+        img.img-responsive(src='/images/art1.jpg', alt='')

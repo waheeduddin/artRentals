@@ -30,7 +30,42 @@ a:hover {
    margin-right:25%;
    text-align:center;
  }
+.containerLogin{
+  margin-top: -150px;
+  height: 100vh;
+  margin-left: 25%;
+  margin-right:25%;
+  text-align:center;
+}
+.radioButton{
+  margin-left: -15px;
+}
+.loginButton{
+  background-color: #c0dfd9;
+  Color:#173E43;
+}
+.buttonPadding{
+  margin-top: 10px;
+  width: 100px;
 
+}
+.productDetail{
+  margin-top: -50px;
+  margin-left: 5%;
+  margin-right:5%;
+  text-align:center;
+}
+.productHistory{
+  text-align:center;
+}
+.rowDetails{
+  margin-top: 30px;
+  text-align: center;
+}
+.detailsColumn{
+
+  margin-top: 40px;
+}
 
 
 

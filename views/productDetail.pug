@@ -1,0 +1,35 @@
+extends layout
+
+block content
+
+    .row.productDetail
+      .col-sm-8.productHistory
+        img.img-responsive(src="/images/art3.jpg", alt="Paris")
+        h1
+          | History
+        |
+        p
+          | Trust fund skateboard prism, locavore bitters food truck tacos cred vinyl man braid crucifix pinterest pok pok. Chartreuse blue bottle prism biodiesel 3 wolf moon affogato. Trust fund gochujang bicycle rights fanny pack tofu, occupy DIY live-edge schlitz hammock cloud bread bushwick sartorial. Sartorial swag keytar pop-up listicle bushwick lomo neutra.
+          | Small batch narwhal synth sustainable kinfolk hell of wayfarers whatever asymmetrical.
+
+
+      .col-sm-4
+        | Details
+        .form-group.row.rowDetails
+          label.col-2.col-form-label(for="example-text-input") Location
+            input#example-text-input.form-control(type="text", value="Location")
+          |
+          .col-10.detailsColumn
+            label.col-2.col-form-label(for="example-text-input") Item ID:
+              input#example-text-input.form-control(type="text", value="Item ID")
+
+          |
+          .col-10.detailsColumn
+            label.col-2.col-form-label(for="example-text-input") Owner's message
+              input#example-text-input.form-control(type="text", value="Owner's message")
+
+          |
+          .col-10.detailsColumn
+            label.col-2.col-form-label(for="example-text-input") reviews
+              input#example-text-input.form-control(type="text", value="reviews")
+          button.btn.loginButton.buttonPadding(type="button") Rent ME
