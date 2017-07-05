@@ -1,0 +1,33 @@
+
+
+.container{
+  margin-bottom: 20px;
+	margin-top: 200px;
+	width: 50%;
+}
+
+
+.primary{
+	color:@primary;
+}
+
+.subtext{
+	color:#666;
+	font-size:16px;
+	font-weight:bold;
+	margin:10px 0 0 45px;
+}
+
+
+#products img{
+	
+
+}
+
+#products {
+  margin: -250px 2% 0 2%;
+   z-index: -1;
+}
+
+
+/* Media Queries */

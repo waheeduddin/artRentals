@@ -1,0 +1,28 @@
+extends ./layout.pug
+
+block content
+
+     each item in items
+      section.item
+        .container
+
+        section#products
+          .row
+            .col-md-4.portfolio-item
+              a(href='#')
+                img.img-responsive(src='/images/art4.jpg', alt='')
+              h3
+                a(href='#')  #{item.title}
+
+            .col-md-4.portfolio-item
+              a(href='#')
+                img.img-responsive(src='/images/art4.jpg', alt='')
+              h3
+                a(href='#')  #{item.title}
+            .col-md-4.portfolio-item
+              a(href='#')
+                img.img-responsive(src='/images/art3.jpg', alt='')
+              h3
+                  a(href='#')  #{item.title}
+          .row
+            col-md-4.portfolio-item.text-center

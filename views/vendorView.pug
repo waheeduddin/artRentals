@@ -1,0 +1,32 @@
+extends layout
+
+block content
+      section.post
+      form
+        .fomrContainer
+          label(for='exampleInputEmail1') Email address
+          input#exampleInputEmail1.form-control(type='email', aria-describedby='emailHelp', placeholder='Enter email')
+          small#emailHelp.form-text.text-muted We'll never share your email with anyone else.
+        .form-group
+          label(for='exampleInputPassword1') Password
+          input#exampleInputPassword1.form-control(type='password', placeholder='Password')
+        .form-group
+          label(for='exampleSelect1') Example select
+          select#exampleSelect1.form-control
+            option 1
+            option 2
+            option 3
+            option 4
+            option 5
+        .form-group
+          label(for='exampleSelect2') Example multiple select
+          select#exampleSelect2.form-control(multiple='')
+            option 1
+            option 2
+            option 3
+            option 4
+            option 5
+        .form-group
+          label(for='exampleTextarea') Example textarea
+          textarea#exampleTextarea.form-control(rows='3')
+          img.img-responsive(src='/images/art1.jpg', alt='')

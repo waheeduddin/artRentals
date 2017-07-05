@@ -1,0 +1,25 @@
+extends layout
+
+block content
+
+
+      form.formContainer
+        .form-group
+          label(for='exampleInputEmail1') Renter ID
+          input#exampleInputEmail1.form-control(type='email', aria-describedby='emailHelp', placeholder='Renter ID')
+          small#emailHelp.form-text.text-muted 
+        .form-group
+          label(for='exampleInputPassword1') Renter Signature
+          input#exampleInputPassword1.form-control(type='password', placeholder='Renter Signature')
+        .form-group
+          label(for='exampleInputPassword1') Product ID
+          input#exampleInputPassword1.form-control(type='password', placeholder='Product ID')
+        .form-group
+          label(for='exampleTextarea') History
+          textarea#exampleTextarea.form-control(rows='3')
+        .form-group
+          label(for='exampleInputFile') Upload Item Image
+          input#exampleInputFile.form-control-file(type='file', aria-describedby='fileHelp')
+          small#fileHelp.form-text.text-muted
+        p
+          img.img-responsive(src='/images/art1.jpg', alt='')
