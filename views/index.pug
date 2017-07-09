@@ -1,13 +1,13 @@
-extends layout
+extends layout.pug
 
 block content
-
-    .site-wrapper
-      .site-wrapper-inner
-        .cover-container
-          .inner.cover
-            img.img-responsive(src='/images/logo_1.png', alt='')
-            p.lead
-              | Art is a legacy that should not be leaning against a corner. Sharing art is sharing experiences. As an Artist here is the opportunity to make your self known. Share your work with the World.
-              p
-              a.btn.btn-lg.btn-default(href='./detail') View Gallery
+    .backgroundImg
+      .site-wrapper
+        .site-wrapper-inner
+          .cover-container
+            .inner.cover.imgHome
+              img.img-responsive(src='images/Logo-1.png', alt='')
+              p.lead
+                | Art is a legacy that should not be leaning against a corner. Sharing art is sharing experiences. As an Artist here is the opportunity to make your self known. Embrace the future and use blockchain technology to share your work with the World.
+                p
+                a.btn.btn-lg.btn-default(href='./detail') View Gallery

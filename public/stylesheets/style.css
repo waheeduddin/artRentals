@@ -20,13 +20,44 @@
 
 
 #products img{
-	
+
 
 }
 
 #products {
   margin: -250px 2% 0 2%;
    z-index: -1;
+}
+.backgroundImg {
+  width: 100%;
+  height: 80%;
+  background: url(/images/justartBackground_1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#containerImages {
+      display: inline-block;
+      flex-direction: column;
+      justify-content: center;
+      width: 80%;
+      height: 50vh;
+
+
+    }
+.item {
+
+
+      float: left;
+      margin: 5px 5px 5px 5px;
+    }
+
+    .masterConteiner{
+  width: 80%
+  height:100vh;
+  float: left;
+  margin-left: 5%;
 }
 
 
