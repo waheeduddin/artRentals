@@ -1,0 +1,260 @@
+/*
+ * Globals
+ */
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: black; }
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #173E43;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #FEFFFF;
+  border: 1px solid #fff; }
+
+.row {
+  margin-top: 150px; }
+
+.galleryContainer {
+  margin-left: 20%;
+  margin-right: 20%; }
+
+/*
+ * Form Group
+ */
+.formContainer {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center; }
+
+.containerLogin {
+  margin-top: -150px;
+  height: 100vh;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center; }
+
+.radioButton {
+  margin-left: -15px; }
+
+.loginButton {
+  background-color: #c0dfd9;
+  Color: #173E43; }
+
+.buttonPadding {
+  margin-top: 10px;
+  width: 100px; }
+
+.productDetail {
+  margin-top: -50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center; }
+
+.productHistory {
+  text-align: center; }
+
+.rowDetails {
+  margin-top: 30px;
+  text-align: center; }
+
+.detailsColumn {
+  margin-top: 40px; }
+
+/*
+ * Base structure
+ */
+html,
+body {
+  height: 100%;
+  background-color: #FEFFFF; }
+
+body {
+  color: #173E43;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(250, 250, 250, 0.5); }
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%; }
+
+.site-wrapper h1 {
+  font-size: 30px;
+  text-align: center; }
+
+.site-wrapper p {
+  padding-top: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top; }
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto; }
+
+.cover-container img {
+  width: 700px; }
+
+/* Padding for spacing */
+.inner {
+  padding: 30px; }
+
+.cover-container li {
+  color: black; }
+
+/*
+ * Header
+ */
+.masthead {
+  position: relative; }
+
+.masthead li {
+  color: #173e43; }
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.masthead-nav > li {
+  display: inline-block;
+  color: black; }
+
+.masthead-nav > li + li {
+  margin-left: 20px;
+  margin-bottom: 50px; }
+
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #173E43;
+  /* IE8 proofing */
+  color: #173E43;
+  border-bottom: 1px solid transparent;
+  text-transform: uppercase; }
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  color: #a9a9a9;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255, 255, 255, 0.25); }
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #173E43;
+  border-bottom-color: #173E43; }
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left; }
+
+  .masthead-nav {
+    float: right; } }
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 20px; }
+
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold; }
+
+.site-wrapper-inner {
+  color: black; }
+
+/*
+ * Footer
+ */
+.page-header {
+  color: #173E43; }
+
+.mastfoot {
+  color: #999;
+  /* IE8 proofing */
+  color: rgba(192, 223, 217, 0.5); }
+
+/* grid images */
+.item {
+  width: 450px;
+  height: auto;
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 15px; }
+
+.item img {
+  width: 100%; }
+
+.layoutContainer {
+  display: flex;
+  flex-direction: column; }
+
+.masterConteiner {
+  width: 80%;
+  margin: 0 auto;
+  position: relative; }
+
+.containerImages {
+  background: black;
+  width: 100%; }
+
+/*
+ * Affix and center
+ */
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masterConteiner {
+    margin: auto; }
+
+  .masthead {
+    position: relative;
+    top: 0; }
+
+  .containerGroup {
+    text-align: center;
+    width: 100%; }
+
+  .mastfoot {
+    position: relative;
+    bottom: 0; }
+
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+    height: 80vh; }
+
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+    /* Must be percentage or pixels for horizontal alignment */ }
+
+  .masterConteiner {
+    width: 95%; } }
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px; }
+
+  .containerGroup {
+    text-align: center;
+    margin-top: 0px; } }
+
+/*# sourceMappingURL=cover.css.map */
