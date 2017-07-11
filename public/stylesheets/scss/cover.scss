@@ -233,7 +233,7 @@ body {
 /* grid images */
 .item {
 
-    width: 450px;
+    width: 300px;
     height: auto ;
     float: left;
     margin-left: 15px;
@@ -243,6 +243,7 @@ body {
     }
 .item img{
       width: 100%;
+
 
 }
 .layoutContainer{
@@ -255,14 +256,14 @@ body {
 }
 
 .masterConteiner{
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+
   position: relative;
+
    }
 .containerImages{
 
-background: black;
-  width:100%;
+
 }
 .datailContainer{
 
