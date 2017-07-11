@@ -1,28 +1,13 @@
 extends ./layout.pug
 
 block content
+      .masterConteiner
+         each item in items
 
-     each item in items
+            .containerImages
+                .item
+                      a(href='/productDetail')
+                      img.img-responsive(src='/images/art1.jpg', alt='')
 
-        .container
-
-        section#products
-          .row.galleryContainer
-            .col-md-4.portfolio-item
-              a(href='/productDetail')
-                #{item.image}
-              h3
-                a(href='/productDetail')  #{item.title}
-
-            .col-md-4.portfolio-item
-              a(href='/productDetail')
-                img.img-responsive(src='/images/art4.jpg', alt='')
-              h3
-                a(href='/productDetail')  #{item.title}
-            .col-md-4.portfolio-item
-              a(href='/productDetail')
-                img.img-responsive(src='/images/art3.jpg', alt='')
-              h3
-                  a(href='#')  #{item.title}
-          .row
-            col-md-4.portfolio-item.text-center
+                      h4
+                        a(href='/productDetail')  #{item.title}
