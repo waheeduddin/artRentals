@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  background-color: #FEFFFF;
+}
+body {
+  color: #173E43;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(250,250,250,.5);
+}
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: black;
+}
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #173E43;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #FEFFFF;
+  border: 1px solid #fff;
+}
+.row{
+
+  margin-top: 150px;
+}

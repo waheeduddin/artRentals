@@ -1,0 +1,64 @@
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: relative;
+    top: 0;
+  }
+  .containerGroup{
+    text-align: center;
+    width: 100%;
+
+
+  }
+  .mastfoot {
+    position: relative;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+    height: 100vh;
+
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+
+
+  }
+  .containerGroup{
+    text-align: center;
+    margin-top: 0px;
+
+
+  }
+}
+
+.subtext{
+	color:#666;
+	font-size:16px;
+	font-weight:bold;
+	margin:10px 0 0 45px;
+}
+
+
+#products {
+  margin: -250px 2% 0 2%;
+   z-index: -1;
+}
+
+
+  // load navbar
+
+
+/* Media Queries */
