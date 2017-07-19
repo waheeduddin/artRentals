@@ -1,0 +1,52 @@
+.masthead{
+  position:relative;
+
+}
+.masthead li{
+  color:#173e43;
+}
+.masthead-brand {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+ display: inline-block;
+ color:black;
+
+}
+.masthead-nav > li + li {
+ margin-left: 20px;
+ margin-bottom: 50px;
+}
+.masthead-nav > li > a {
+ padding-right: 0;
+ padding-left: 0;
+ font-size: 16px;
+ font-weight: normal;
+ color: #173E43; /* IE8 proofing */
+ color: #173E43;
+ border-bottom: 1px solid transparent;
+ text-transform: uppercase;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+ color: #a9a9a9;
+ border-bottom-color: #a9a9a9;
+ border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+ color:#173E43;
+ border-bottom-color: #173E43;
+}
+
+@media (min-width: 768px) {
+ .masthead-brand {
+   float: left;
+ }
+ .masthead-nav {
+   float: right;
+ }
+}
