@@ -11,20 +11,22 @@ head
 
   link(href="https://fonts.googleapis.com/css?family=Poiret+One", rel="stylesheet")
 
-.layoutContainer
-  // load navbar
-  include navbar.pug
+  .layoutContainer
+    .navbarSection
+      // load navbar
+      include navbar.pug
+    .mainSection
 
 
 
-  // content block
-  block content
+        // content block
+        block content
 
-  // footer
+    // footer
   .footer
-    .page-header
 
-      div Copyrigth 2017
+
+        div Copyrigth juStArt 2017
 
 
   script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')

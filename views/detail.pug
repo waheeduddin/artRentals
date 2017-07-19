@@ -4,13 +4,12 @@ block content
       .masterConteiner
          each item in items
 
-            .containerImages
+            #containerImages
                 .item
-                      a(href='/productDetail')
-                      img.img-responsive(src='/images/art1.jpg', alt='')
-                      h4
-                        a(href='/productDetail')  #{item.image}
-                      h4
-                        a(href='/productDetail')  #{item.title}
-                      h4
-                        a(href='/productDetail')  #{item.ID}
+                  a(href='/productDetail')
+                    img.img-responsive(src='/images/art1.jpg', alt='')
+                
+                  h4
+                    a(href='/productDetail')  #{item.title}
+                  h4
+                    a(href='/productDetail')  #{item.ID}
